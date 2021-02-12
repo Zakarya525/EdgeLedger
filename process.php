@@ -11,5 +11,5 @@ if (isset($_POST['email'])) {
    //send email
    mail($admin_email, "New Form Submission", $message . ' - ' . $phone, "Form:" . $email);
 
-   header('Location: http://192.168.43.11:5500/index.html');
+   header('Location: http://edgeledger1.herokuapp.com/success.html');
 }
